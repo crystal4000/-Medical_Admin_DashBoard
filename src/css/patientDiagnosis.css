@@ -1,0 +1,165 @@
+.chart {
+  background: #f4f0fe;
+  border-radius: 12px;
+}
+
+.chart-container,
+.diagnostic_list {
+  border-radius: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.chart h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.col-9 p {
+  font-size: 14px;
+  font-weight: normal;
+}
+.chart-details,
+.chart h4,
+.chart span,
+.heart-rate,
+.respiratory,
+.temperature,
+.title {
+  color: #072635;
+}
+.chart-details p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.chart-details h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.chart-details span,
+.chart span {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.respiratory {
+  background: #e0f3fa;
+  border-radius: 12px;
+}
+
+.heart-rate {
+  background: #ffe6f1;
+  border-radius: 12px;
+}
+
+.temperature {
+  background: #ffe6e9;
+  border-radius: 12px;
+}
+
+.respiratory h4,
+.heart-rate h4,
+.temperature h4 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.respiratory p,
+.heart-rate p,
+.temperature p {
+  font-size: 14px;
+  font-weight: medium;
+}
+
+.respiratory span,
+.heart-rate span,
+.temperature span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.diagnostic_list thead th {
+  background: #f6f7f8;
+}
+
+.diagnostic_list th {
+  font-size: 14px;
+  font-weight: bold;
+  color: #072635 !important;
+}
+
+.diagnostic_list td {
+  font-size: 14px;
+  font-weight: normal;
+  color: #072635 !important;
+}
+
+.table-wrapper {
+  height: 120px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.table-wrapper::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.1rem;
+  background: #c2c1c157;
+  border-radius: 2px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background-color: #072635;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .chart-details span,
+  .chart span {
+    font-size: 11px;
+  }
+
+  .respiratory span,
+  .heart-rate span,
+  .temperature span,
+  .diagnostic_list td,
+  .diagnostic_list th {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .chart h4 {
+    font-size: 14px;
+  }
+
+  .chart-details {
+    margin-top: 20px;
+  }
+
+  .respiratory span,
+  .heart-rate span,
+  .temperature span {
+    font-size: 8px;
+  }
+
+  .respiratory h4,
+  .heart-rate h4,
+  .temperature h4 {
+    font-size: 24px;
+  }
+
+  .respiratory p,
+  .heart-rate p,
+  .temperature p {
+    font-size: 12px;
+  }
+}

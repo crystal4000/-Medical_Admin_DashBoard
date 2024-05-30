@@ -1,0 +1,43 @@
+.sidebar-container {
+  height: 670px;
+  background: #fff;
+}
+.side-header h4 {
+  color: #072635;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.side-body .profile p,
+.side-body .profile span {
+  color: #072635;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.side-body .profile span {
+  color: #707070;
+  font-weight: normal;
+}
+
+.side-body {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden; /* Enable vertical scrollbar */
+}
+
+.side-body::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.1rem;
+  background: #c2c1c157;
+  border-radius: 2px;
+}
+
+.side-body::-webkit-scrollbar-thumb {
+  background-color: #072635;
+  border-radius: 2px;
+}
+
+.side-body .selected-patient {
+  background: #d8fcf7;
+}

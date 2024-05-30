@@ -1,0 +1,40 @@
+.cs-navbar {
+  border-radius: 41px;
+}
+.cs-navbar .nav-link {
+  color: #072635 !important;
+  line-height: 1.5;
+  font-size: bold;
+  font-size: 14px;
+}
+
+.cs-navbar .nav-link.active {
+  background-color: #01f0d0;
+  border-radius: 41px;
+}
+
+.cs-navbar .profile p,
+.cs-navbar .profile span {
+  color: #072635;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cs-navbar .profile span {
+  color: #707070;
+  font-weight: normal;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  font-size: 1rem !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .cs-navbar .profile {
+    display: none !important;
+  }
+}
